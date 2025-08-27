@@ -6,7 +6,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
   - [Screenshot]![](./Screenshot1.jpg)
   - [Screenshot]![](./Screenshot2.jpg)
-  - [Links](https://github.com/H-wq-prog/testimonials-grid-section.git)
+  - [Links](https://github.com/H-wq-prog/blog-preview-card.git)
 - [My process](#my-process)
 - [Built with](frontend mentor)
 
