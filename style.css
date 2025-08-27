@@ -1,0 +1,100 @@
+body{
+height: 100vh;
+padding: 0;
+margin: 0;
+font-family:"Figtree", "Open Sans", sans-serif;
+}
+
+:root{
+    --main-margin:15px;
+    --main-color: hsl(47, 88%, 63%);
+    --main-tcolor:hsl(0, 0%, 42%);
+    --main-color-border: hsl(0, 0%, 7%);
+    
+}
+
+.contaner{
+    width: 100%;
+    height: 100%;
+    background-color:var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    background-color: hsl(0deg 0% 100%);
+    width: 320px;
+    border: .5px solid var(--main-color-border);
+    box-shadow: 6px 6px 0px 0px var(--main-color-border);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+}
+
+.card-body .first-img{
+    width: 90%;
+    margin-top: var(--main-margin);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    -webkit-transform: translate(-50% , 0%);
+    -moz-transform: translate(-50% , 0%);
+    -ms-transform: translate(-50% , 0%);
+    -o-transform: translate(-50% , 0%);
+}
+.card-body p:first-of-type{
+    margin-left: var(--main-margin);
+    background-color: var(--main-color);
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 25px;
+    border-radius:  6px;
+    margin-top: 8px;
+    -webkit-border-radius:  6px;
+    -moz-border-radius:  6px;
+    -ms-border-radius:  6px;
+    -o-border-radius:  6px;
+}
+.card-body p:nth-of-type(2){
+    margin-left: var(--main-margin);
+    font-size: 14px;
+}
+
+.card-body h2{
+    margin-left: var(--main-margin);
+    cursor: pointer;
+    font-weight: 800;
+    
+}
+.card-body h2:hover{
+    color: var(--main-color);
+}
+
+.card-body p:nth-of-type(3){
+    margin-left: var(--main-margin);
+    color:var(--main-tcolor) ;
+}
+.card-body .profile-photo {
+    display: flex;
+    align-items: center;
+
+}
+.card-body .profile-photo img{
+    width: 15%;
+    margin: var(--main-margin);
+    margin-right: 5px;
+}
+.card-body .profile-photo h3{
+    font-size: 16px;
+}
